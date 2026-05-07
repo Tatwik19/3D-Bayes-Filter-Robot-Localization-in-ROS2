@@ -716,18 +716,17 @@ At runtime, the belief should behave as follows:
 
 ### Initial Belief
 
-```markdown
+
 ![Initial belief](media/initial_belief.png)
-```
+
 At startup, the belief is concentrated around the initial pose near (-7, -7, 90 degrees).
 
 ---
 
 ### Prediction Spread
 
-```markdown
 ![Prediction spread](media/prediction_spread.png)
-```
+
 
 
 After motion, the belief shifts according to odometry and spreads due to motion uncertainty.
@@ -737,9 +736,8 @@ After motion, the belief shifts according to odometry and spreads due to motion 
 
 ### Landmark Update
 
-```markdown
 ![Landmark update](media/landmark_update.png)
-```
+
 
 
 After observing a landmark, the measurement likelihood sharpens the belief around poses that explain the observed range and bearing.
@@ -748,9 +746,8 @@ After observing a landmark, the measurement likelihood sharpens the belief aroun
 
 ### Convergence
 
-```markdown
 ![Convergence](media/convergence.png)
-```
+
 
 
 After observing multiple landmarks, the belief peak converges near the ground truth trajectory.
